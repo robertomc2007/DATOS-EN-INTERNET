@@ -8,7 +8,7 @@ import processing.net.*;
 import static javax.swing.JOptionPane.*;
 
 //CONFIGURATION
-String APIKEY = "XXXXXXXXXXXXXXXX"; //your api key
+String APIKEY = "XXXXXXXXXXXXXXXX"; //INGRESAR write api key
 String FIELD = "field1";
 int PORTNUM = 0; //Indice del port arduino
 //END CONFIGURATION
@@ -22,7 +22,7 @@ void setup() {
   size(600, 400);
   try {
     //setup the serial port
-    // List all the available serial ports:
+    // Lista los puertos serie:
     println(Serial.list());
     //Init the Serial object
     arduino = new Serial(this, Serial.list()[PORTNUM], 9600);
