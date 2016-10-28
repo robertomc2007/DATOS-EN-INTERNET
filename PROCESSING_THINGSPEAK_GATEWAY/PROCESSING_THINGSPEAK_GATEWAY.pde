@@ -8,7 +8,7 @@ import processing.net.*;
 import static javax.swing.JOptionPane.*;
 
 //CONFIGURATION
-String APIKEY = "AJUI10ANDDOWEVWA"; //your api key
+String APIKEY = "XXXXXXXXXXXXXXXX"; //your api key
 String FIELD = "field1";
 int PORTNUM = 0; //Indice del port arduino
 //END CONFIGURATION
