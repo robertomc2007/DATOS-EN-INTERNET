@@ -1,6 +1,6 @@
 /**
- * Tests the thinkspeak channel by sending any numeric 
- * keypress using the specified APIKEY and FIELD
+ * Tests de la API thinkspeak enviando un valor 
+ * en el campo field1
  */
 
 import processing.serial.*;
@@ -16,7 +16,7 @@ int PORTNUM = 0; //Indice del port arduino
 Serial arduino;
 Client c;
 String data;
-float number; //read from arduino
+float number; //valor leido desde arduino
 
 void setup() {
   size(600, 400);
@@ -24,7 +24,7 @@ void setup() {
     //setup the serial port
     // Lista los puertos serie:
     println(Serial.list());
-    //Init the Serial object
+    // Conexion al puerto serie
     arduino = new Serial(this, Serial.list()[PORTNUM], 9600);
   }
   catch (Exception e)
@@ -49,6 +49,7 @@ void draw() {
     fill(200);
     text(data, 10, 80);
   }
+  
   if (c != null) {
     if (c.available() > 0) { // Muestra la respuesta del servidor...
       data = c.readString();
@@ -61,10 +62,8 @@ void draw() {
   if ( (ln = arduino.readStringUntil('\n')) != null) {
     try {
       number = new Float(trim(ln));
-      //if (number < 1025) {
       println("Enviando " + number);
       sendNumber(number);
-      //}
     }
     catch(Exception ex) {
       println("Error:", ex);
