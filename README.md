@@ -4,7 +4,7 @@ Resumen Uso de un GATEWAY para subir datos a la nube (API THINGSPEAK)
 
 ## A) Servicio gratuito [THINGSPEAK](https://thingspeak.com/)
 
-### Agregar un valor numerico a un campo:  [UPDATE CHANNEL FEED](https://www.mathworks.com/help/thingspeak/update-channel-feed.html)
+### Agregar un valor numerico a un campo:  [Update a Channel Feed](https://www.mathworks.com/help/thingspeak/update-channel-feed.html)
 
 https://api.thingspeak.com/update?api_key=XXXXXXXXXXXXXXXX&field1=73.81
 
