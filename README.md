@@ -1,6 +1,6 @@
 # DATOS EN INTERNET
 
-Resumen Uso de un GATEWAY para subir datos a la nube (API THINGSPEAK)
+Resumen Uso de un GATEWAY para guardar y recuperar datos a la nube (API THINGSPEAK)
 
 ## A) Servicio gratuito [THINGSPEAK](https://thingspeak.com/)
 
