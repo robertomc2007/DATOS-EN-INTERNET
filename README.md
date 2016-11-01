@@ -1,8 +1,8 @@
 # DATOS EN INTERNET
 
-## Resumen Uso de un GATEWAY para subir datos a la nube
+Resumen Uso de un GATEWAY para subir datos a la nube (API THINGSPEAK)
 
-Servicio gratuito [THINGSPEAK](https://thingspeak.com/)
+## Servicio gratuito [THINGSPEAK](https://thingspeak.com/)
 
 ### Agregar un valor numerico a un campo: 
 
@@ -22,4 +22,4 @@ Canal PRIVADO
 
 https://api.thingspeak.com/channels/141411/fields/3/last.txt?api_key=XXXXXXXXXXXXXX
 
-Programa escrito con [PROCESSING](https://processing.org/) para interpretar el texto en el puerto serie y ajustarlo a la API del servicio de datos
+## Programa escrito con [PROCESSING](https://processing.org/) para interpretar el texto en el puerto serie y ajustarlo a la API del servicio de datos
