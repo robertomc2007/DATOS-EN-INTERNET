@@ -2,7 +2,7 @@
 
 Resumen Uso de un GATEWAY para subir datos a la nube (API THINGSPEAK)
 
-## Servicio gratuito [THINGSPEAK](https://thingspeak.com/)
+## A) Servicio gratuito [THINGSPEAK](https://thingspeak.com/)
 
 ### Agregar un valor numerico a un campo:  [UPDATE CHANNEL FEED](https://www.mathworks.com/help/thingspeak/update-channel-feed.html)
 
@@ -24,4 +24,4 @@ Canal PRIVADO
 
 https://api.thingspeak.com/channels/141411/fields/3/last.txt?api_key=XXXXXXXXXXXXXX
 
-## Programa escrito con [PROCESSING](https://processing.org/) para interpretar el texto en el puerto serie y ajustarlo a la API del servicio de datos
+## B) Programa escrito con [PROCESSING](https://processing.org/) para interpretar el texto en el puerto serie y ajustarlo a la API del servicio de datos
