@@ -24,4 +24,6 @@ Canal PRIVADO
 
 https://api.thingspeak.com/channels/141411/fields/3/last.txt?api_key=XXXXXXXXXXXXXX
 
+NOTA: api_key = READ API KEY
+
 ## B) Programa escrito con [PROCESSING](https://processing.org/) para interpretar el texto en el puerto serie y ajustarlo a la API del servicio de datos
