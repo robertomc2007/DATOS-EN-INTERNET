@@ -31,3 +31,6 @@ NOTA: api_key = READ API KEY
 OTROS RECURSOS
 
 [C# ThingSpeak](https://cobwebsonmymind.wordpress.com/2011/04/13/thingspeak-net-class/)
+
+[WinRT](https://github.com/mobernberger/thingspeak-winrt)
+
