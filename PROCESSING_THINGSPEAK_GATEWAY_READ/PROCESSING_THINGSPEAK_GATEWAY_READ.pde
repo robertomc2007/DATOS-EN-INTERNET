@@ -8,9 +8,12 @@ import processing.net.*;
 import static javax.swing.JOptionPane.*;
 
 //CONFIGURATION
-String APIKEY = "SF41SOFN5D31WMV6"; //INGRESAR write api key
-String FIELD = "field1";
 String CHANNEL ="177724";
+
+String APIKEY = "xxxxxxxxxxxxx"; //INGRESAR write api key del canal designado !!!!
+
+String FIELD = "field1"; //campo designado para escribir datos
+// field8 reservado para textos de comandos
 
 int PORTNUM = 0; //Indice del port arduino
 //END CONFIGURATION
