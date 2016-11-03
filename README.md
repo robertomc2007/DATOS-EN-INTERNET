@@ -34,3 +34,4 @@ OTROS RECURSOS
 
 [WinRT](https://github.com/mobernberger/thingspeak-winrt)
 
+[CodeProject](http://www.codeproject.com/Articles/845538/An-Introduction-to-ThingSpeak)
